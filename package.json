@@ -1,0 +1,56 @@
+{
+  "name": "jobs-advertiser",
+  "version": "1.0.0",
+  "description": "A ReactJS-based webapp for advertising technology jobs.",
+  "main": "index.js",
+  "scripts": {
+    "build": "react-scripts build",
+		"eject": "react-scripts eject",
+		"start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/universal-projects/jobs-advertiser.git"
+  },
+  "keywords": [
+    "jobs",
+    "advertiser",
+    "jobs-advertiser"
+  ],
+  "author": "Michael K Macharia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/universal-projects/jobs-advertiser/issues"
+  },
+  "homepage": "https://github.com/universal-projects/jobs-advertiser#readme",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+		"dotenv": "^8.2.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.2.2",
+    "react-dom": "^16.13.1",
+    "react-markdown": "^4.3.1",
+    "react-scripts": "3.4.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
